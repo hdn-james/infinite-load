@@ -5,10 +5,7 @@ import { TProductList } from '@/types/product'
 
 const ProductList: React.FC<TProductList> = ({ data }) => {
   return (
-    <div
-      data-testid='product-list'
-      className='flex flex-col gap-4'
-    >
+    <div className='flex flex-col gap-4'>
       {data?.pages.map((page) =>
         page.products.map((product) => {
           return (

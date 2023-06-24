@@ -20,10 +20,7 @@ const App: React.FC = () => {
   }, [inView])
 
   return (
-    <div
-      data-testid='app'
-      className='container p-8'
-    >
+    <div className='container p-8'>
       <h1 className='text-xl font-bold'>Product List</h1>
 
       <Search onSearchQueryChange={setSearchQuery} />

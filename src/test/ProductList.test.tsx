@@ -396,4 +396,3 @@ describe('Product List', () => {
     expect(productList).toHaveLength(20)
   })
 })
-//test block
