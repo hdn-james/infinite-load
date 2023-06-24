@@ -16,7 +16,10 @@ const Product: React.FC<TProduct> = ({
   images,
 }) => {
   return (
-    <div className='overflow-auto rounded-xl border border-black p-4'>
+    <div
+      data-testid='product'
+      className='overflow-auto rounded-xl border border-black p-4'
+    >
       <div className='flex gap-4'>
         <div className='w-12/24'>
           <p>

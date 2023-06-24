@@ -24,6 +24,7 @@ const Search: React.FC<ISearchProps> = ({ onSearchQueryChange }) => {
   return (
     <div className='my-6'>
       <input
+        data-testid='input'
         value={inputValue}
         onChange={onInputChange}
         className='w-full border px-2 py-1'
