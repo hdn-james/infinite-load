@@ -52,5 +52,5 @@ Take input from user keyboard (debounced 300ms)
 Show result retrieved from API
 
 ### Unit test
-1. Verify ProductList display 20 items if passing 20 items
-2. Verify useProductQuery retrieve correct data for each page
+1. Verify ProductList displays enough data
+2. Verify useProductQuery retrieves correct data for each page
